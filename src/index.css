@@ -1,0 +1,23 @@
+/* src/index.css */
+
+/* 1. Tailwind base styles */
+@tailwind base;
+
+/* 2. Tailwind component classes */
+@tailwind components;
+
+/* 3. Tailwind utility classes */
+@tailwind utilities;
+
+/* 4. Optional: global custom styles */
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+textarea, input, button {
+  @apply border border-gray-300 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+button {
+  @apply bg-blue-500 text-white hover:bg-blue-600 transition-colors;
+}
